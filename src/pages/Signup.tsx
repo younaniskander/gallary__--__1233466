@@ -53,7 +53,7 @@ const Signup = () => {
       password,
       options: {
         data: { full_name: cleanName },
-        emailRedirectTo: window.location.origin,
+        emailRedirectTo: "https://gallary-1233466.vercel.app/",
       },
     });
     setLoading(false);
